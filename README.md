@@ -12,6 +12,37 @@ Sound files all created by Torin Stephens
 
 Tested and developed under PyGame 2.0.0 and Python 3.8.5
 
+## Instructions
+### This is assuming that you have PIP3 and Python3 installed on your computer.
+1. Place all the files in this repository in your home folder. Unix (Linux or Mac): `/Users/EXAMPLEUSER/` DOS (Windows): `/Users/EXAMPLEUSER/`.
+
+2. Run this command on Unixy systems (Mac and Linux):
+```bash
+pip3 install pygame && echo Pygame Has Been Installed!!
+```
+Run this command on DOS systems (Windows 10 or later)
+```bat
+pip3 install pygame
+```
+3. Run this command on Unixy systems:
+```bash
+cd /Users/EXAMPLEUSER/ && python3 asteriods3.py
+```
+
+DOS Systems:
+```bat
+cd /Users/EXAMPLEUSER/
+```
+Then do:
+```
+python3 asteroids3.py
+```
+### If you get a 'FileNotFound' error:
+Don't open an issue. We are working on it!
+
+***
+
+## License
 Copyright (C) 2020-21  Torin Stephens
 
 This program is free software: you can redistribute it and/or modify
@@ -26,9 +57,14 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see  <https://www.gnu.org/licenses/>.
+***
+
+## Credits
  
 Collision detection code by Nick Redshaw https://www.pygame.org/wiki/IntersectingLineDetection
 
 Orbitron Free Font by Matt McInerney
+***
 
 Enjoy!
+***
